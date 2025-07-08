@@ -1,7 +1,7 @@
-import React, { ComponentProps, FC } from "react"
+import React, { FC } from "react"
 
-const Page: FC<ComponentProps<"section">> = ({ children, ...props }) => {
-  return <React.Fragment {...props}>{children}</React.Fragment>
+const Page: FC = ({ ...props }) => {
+  return <React.Fragment {...props}></React.Fragment>
 }
 
 export default Page

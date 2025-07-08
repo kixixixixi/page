@@ -3,14 +3,13 @@ export const metadata = {
   description: "Page description",
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <main>{children}</main>
+      </body>
     </html>
   )
 }
+export default RootLayout
