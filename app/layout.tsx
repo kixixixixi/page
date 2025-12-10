@@ -29,7 +29,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <main
           style={{
             background: "#f0f0f0",
-            minHeight: "calc(100dvh - 3rem)",
+            minHeight: "calc(100dvh - 5.625rem)",
             padding: "1rem",
           }}
         >
@@ -38,6 +38,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <footer
           style={{
             backgroundColor: "#f9f9f9",
+            boxShadow: "0 -4px 6px rgba(0, 0, 0, 0.1)",
             fontSize: ".75rem",
             padding: "1rem",
           }}
