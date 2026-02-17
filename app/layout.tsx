@@ -1,3 +1,4 @@
+import { Title } from "components/elements/layout"
 import "./reset.css"
 
 export const metadata = {
@@ -17,14 +18,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             position: "relative",
           }}
         >
-          <h1
-            style={{
-              fontSize: "1rem",
-              margin: 0,
-            }}
-          >
-            Page title
-          </h1>
+          <Title>Page title</Title>
         </header>
         <main
           style={{
