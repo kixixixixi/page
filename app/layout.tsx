@@ -1,4 +1,4 @@
-import { Title } from "components/elements/layout"
+import { Title } from "@/components/elements/layout"
 import "./reset.css"
 
 export const metadata = {
